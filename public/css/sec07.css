@@ -1,0 +1,129 @@
+.sec07{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    background-color: var(--sbc);
+}
+.sec07 .vector{
+    position: relative;  
+    width: 100%;
+    height: 100vh; 
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background-color: var(--sbc); */
+}
+ [alt="Vector 13"]{
+    position: absolute;
+    top:300px;
+}
+.sec07 .vector .boxes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    z-index: 2;  
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    width: 80%;
+    
+}
+.sec07 .intro2article{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    width: 100%;
+    padding:20px;
+}
+.sec07 .intro2article .title{
+    color:black;
+    font-size: 56px;
+    font-weight:700 ;
+    line-height: 61.6px;
+}
+.sec07 .intro2article .button #moreA{
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border:  transparent ;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14.63px;
+    gap:10px;
+    
+}
+
+.sec07 .vector .boxes .box{
+    box-shadow: 
+    0px 0px 6px 0px rgba(0, 0, 0, 0.07),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+    margin-left: 20px;
+    height: 400px;
+    width:380px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.sec07 .vector .boxes .box [alt="shoesphoto"]{
+    border-radius: 8px 8px 0 0;
+}
+.sec07 .vector .boxes .box .dis{
+    padding: 10px;
+}
+.sec07 .vector .boxes .box .dis p{
+    color: black;
+     margin: 10px 0;
+     font-weight: 300;
+     font-size: 20px;
+}
+.sec07 .vector .boxes .box .dis h1{
+    color: black;
+    font-size: 20px;
+}
+.sec07 .vector .boxes .box .button #read{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: transparent ;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14.63px;
+    gap:10px;
+}
+@media (max-width:500px) {
+    .sec07{
+        height:1900px;
+    }
+    .sec07 .intro2article{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -550px;
+    }
+    .sec07 .intro2article .title{
+        font-size: 35px;
+        /* margin-bottom: 10px; */
+    }
+    .sec07 .vector .boxes{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .sec07 .vector .boxes .box{
+        width: 300px;
+    }
+
+}

@@ -1,0 +1,140 @@
+.sec01{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    width:100%;
+    margin: 0;
+    background:linear-gradient(to bottom right,var(--sbc) 50%,var(--bc) 50%);
+    
+}
+
+.sec01 .first-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 0;
+}
+ .part1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;  
+    top:-10px;
+    position: relative;
+}
+.part1 .intro{
+    width:60%;
+}
+.part1 .intro .top{
+    font-size: 70px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 10px;
+}
+.part1 .intro .parag{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.part1 .buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; 
+     
+}
+ [alt="display icon"]{
+    position: relative;
+    top:5px;
+ }
+
+.part1 .buttons button#register{
+    background-color: transparent;
+     border: 2px solid var(--text-pc);
+     border-radius: 6px;
+     padding: 0 20px;
+     margin: 0 10px;
+     height: 40px;
+     font-size: 16px;
+    font-weight: 600;
+    line-height: 14.63px;
+}
+.part1 .buttons button#demo{
+    border:none;
+    background-color: transparent;
+     height: 40px; 
+     font-size: 16px;
+    font-weight: 600;
+    line-height: 14.63px;
+}
+ [alt="shoes image"]{
+    width:400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.part2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+    
+}
+[alt="rect icon"]{
+    position: relative;
+    left: -80px;
+    bottom: -30px;
+}
+.part2 .box{
+    padding: 25px;
+
+}
+.part2 .box .title{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+.part2 .box .discription{
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+@media(max-width:500px){
+    .part1{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;  
+    }
+    .part1 .intro .top{
+        font-size: 50px;
+        
+    }
+    [alt="display icon"]{
+        display:none;
+    }
+    .part1 .buttons button#demo{
+        display:none;
+    }
+    .part2{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        
+    }
+    .part2 .box{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+     
+}

@@ -1,0 +1,86 @@
+.sec04{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    background-color: var(--sbc);
+    height: 700px;
+}
+.sec04 .fourth_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.sec04 .fourth_container .head{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    width: 100%;
+    padding:20px;
+}
+.sec04 .fourth_container .head .head-intro{
+    color:black;
+    font-size: 56px;
+    font-weight:700 ;
+    line-height: 61.6px;
+}
+ 
+.sec04 .fourth_container .Boxes{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background:  #FDE68A; 
+    padding: 50px 20px 40px;
+    gap:20px;
+    height: 350px;
+    border-radius: 7px;
+}
+.sec04 .fourth_container .Boxes .Box{
+    background-color: white;
+    padding: 25px;
+    height: 350px;
+    width:310px;
+    border-radius: 20px;
+    position: relative;
+    top:40px;
+    box-shadow: 
+        0px 0px 6px rgba(0, 0, 0, 0.07), 
+        0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.sec04 .fourth_container .Boxes .Box .about_it{
+    color: black;
+     margin: 10px 0;
+     font-weight: 400;
+     font-size: 20px;
+}
+.sec04 .fourth_container .Boxes .Box .Author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+@media (max-width:500px) {
+
+    .sec04 .fourth_container .head{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec04 .fourth_container .head .head-intro{
+        font-size: 35px;
+    }
+    .sec04 .fourth_container .head .icons{
+        display: none;
+    }
+}

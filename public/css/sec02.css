@@ -1,0 +1,119 @@
+.sec02{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+     background-color: #0F172A;
+   
+}
+.sec02 .seconed_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
+
+.sec02 .seconed_container .intro{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    width: 100%;
+    padding:20px;
+}
+.sec02 .seconed_container .intro .title{
+    color:white;
+    font-size: 56px;
+    font-weight:700 ;
+    line-height: 61.6px;
+}
+.sec02 .seconed_container .intro .button #sup{
+    align-self: flex-end;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 0 20px;
+    margin: 0 10px;
+    height: 40px;
+    font-size: 16px;
+   font-weight: 600;
+   line-height: 14.63px;
+   color:white;
+}
+.sec02 .seconed_container .boxes{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.sec02 .seconed_container .boxes .box{
+    box-shadow:
+                0px 0px 15px 0px #FFFFFF12,
+                0px 25px 50px -12px #FFFFFF40;
+    margin-left: 20px;
+    padding: 25px;
+    height: 400px;
+    width:380px;
+}
+.sec02 .seconed_container .boxes .box [alt="shoesphoto"]{
+    width:330px;
+    border-radius: 8px;
+}
+.sec02 .seconed_container .boxes .box .dis p{
+    color: white;
+     margin: 10px 0;
+     font-weight: 300;
+     font-size: 20px;
+}
+ .dis h1{
+    color:white;
+}
+.sec02 .seconed_container .boxes .button #buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 0 10px;
+    width:200px;
+    height: 40px;
+    font-size: 16px;
+   font-weight: 600;
+   line-height: 14.63px;
+   color:white;
+   margin-left: 60px;
+    margin-top: 20px;
+}
+ @media (max-width:500px) {
+    .sec02 .seconed_container .intro{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .sec02 .seconed_container .intro .title{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .sec02 .seconed_container .boxes{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    .sec02 .seconed_container .intro .button #sup{
+        font-size: 25px;
+        height: 60px;
+    }
+
+ }

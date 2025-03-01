@@ -1,0 +1,57 @@
+ .sec06 .map-section{
+    position: relative;
+    width: 100%;
+    height: 700px; 
+    background-color: var(--text-pc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+     
+}
+[alt="chart (1)"]{
+    width: 80%;  
+    height: auto;
+    /* overflow: hidden; */
+}
+ [alt="Ellipses (1)"]{
+    position: absolute;
+    width: 700px; 
+    height: 700px;
+}
+[alt="col (1)"]{
+    position: absolute;
+    left:150px;
+    top:-30px;
+   
+}
+.counter {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: -40px;
+}
+
+.counter h1 {
+    font-size: 100px;
+    font-weight:bolder;
+    color: white;
+}
+
+.counter p {
+    font-size: 60px;
+    color: white;
+}
+@media (max-width:500px) {
+    .counter h1{
+        font-size: 50px;
+    }
+    .counter p{
+        font-size: 40px;
+    }
+    [alt="col (1)"]{
+        left:80px;
+    }
+}
