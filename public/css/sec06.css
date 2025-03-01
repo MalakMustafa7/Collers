@@ -6,13 +6,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* overflow: hidden; */
-     
 }
 [alt="chart (1)"]{
     width: 80%;  
     height: auto;
-    /* overflow: hidden; */
 }
  [alt="Ellipses (1)"]{
     position: absolute;

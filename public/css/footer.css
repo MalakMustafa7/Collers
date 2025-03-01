@@ -15,8 +15,7 @@ footer .lists{
     align-items: center;
     align-self: flex-start;
     padding: 30px;
-    /* margin: 20px; */
-    gap:230px;
+    gap:200px;
 }
 footer .lists .list nav ul{
    list-style: none;
@@ -30,7 +29,6 @@ footer .lists .list nav ul li{
 footer .lists .list nav ul li .socialicons ul{
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
 }
 hr{

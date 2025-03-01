@@ -84,7 +84,7 @@ button#Bib{
 
 }
 .sec05 .fifth_container .pictures {
-    width: 80%;
+    width: 90%;
     position: relative;  
 }
  
@@ -98,10 +98,12 @@ button#Bib{
 [alt="Desktop2"]{ 
     top:-120px;
     left:150px;
+    width:800px;
 }
 [alt="Picture (4)"]{ 
-    top:-30px;
+    top:-20px;
     left:730px;
+    width:300px;
 }
 @media (max-width:500px) {
     .sec05 .fifth_container .Growth_grid .G_title{

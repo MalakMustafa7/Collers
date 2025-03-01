@@ -12,10 +12,6 @@
     position: relative;  
     width: 100%;
     height: 100vh; 
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* background-color: var(--sbc); */
 }
  [alt="Vector 13"]{
     position: absolute;
@@ -29,9 +25,9 @@
     z-index: 2;  
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
-    width: 80%;
+    width: 70%;
     
 }
 .sec07 .intro2article{
@@ -69,13 +65,14 @@
     0px 10px 15px -3px rgba(0, 0, 0, 0.10);
     margin-left: 20px;
     height: 400px;
-    width:380px;
+    width:280px;
     background-color: white;
     border-radius: 8px;
 }
 
 .sec07 .vector .boxes .box [alt="shoesphoto"]{
     border-radius: 8px 8px 0 0;
+    width:280px;
 }
 .sec07 .vector .boxes .box .dis{
     padding: 10px;
@@ -127,3 +124,4 @@
     }
 
 }
+ 

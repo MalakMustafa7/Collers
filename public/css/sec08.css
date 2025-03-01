@@ -15,7 +15,7 @@
 [alt="Vector 13 (1)"]{
     position: absolute;
     top:200px;
-    height: 450px;
+    height: 480px;
 }
 .sec08 .vector01 .boxes{
     position: absolute;
@@ -34,11 +34,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     align-self: flex-start;
     width: 100%;
     padding:20px;
-    
+    margin-top: 40px;
 
 }
 .sec08 .intro2EXarticle .title{
@@ -105,12 +105,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* margin-bottom: 20px; */
     align-self: flex-start;
     width: 100%;
+    height: 200px;
     padding:40px;
     background-color: #0F172A;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .sec08 .collect .title{
     color:white;
